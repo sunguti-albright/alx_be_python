@@ -31,7 +31,6 @@ Current date and time: 2024-03-25 15:30:45
 Enter the number of days to add to the current date: 10
 Future date: 2024-04-04
 '''
-import datetime
 from datetime import date, timedelta
 
 def  display_current_datetime():
@@ -45,7 +44,8 @@ def calculate_future_date():
     print(f"The future date will be: {future_date}")
     
     
-    
+ # Format datetime to string (strftime)
+# formatted_date = dt.strftime("%Y-%m-%d %H:%M:%S") # e.g., 2025-10-26 10:30:00   
     
 display_current_datetime()
 calculate_future_date()
