@@ -37,4 +37,14 @@ def  display_current_datetime():
     current_date = datetime.date.today()
     print(f"Today's date is {current_date}")
 
+
+def calculate_future_date():
+    number = int(input("enter a number of days (as an integer):"))
+    future_date = datetime.date.today() + datetime.timedelta(days=number)
+    print(f"The future dat will be: {future_date}")
+    
+    
+    
+    
 display_current_datetime()
+calculate_future_date()
