@@ -33,7 +33,7 @@ def main():
         choice = int(input("Enter your choice: "))
 
         if choice == '1':
-            list_item = input("Enter the item to add:  ")
+            list_item = input("Enter the item to add: ")
             shopping_list.append(list_item)
             print(shopping_list)
             pass
