@@ -33,12 +33,12 @@ def main():
         choice = int(input("Enter your choice: "))
 
         if choice == '1':
-            list_item = input("Add item: ")
+            list_item = input("Enter the item to add:  ")
             shopping_list.append(list_item)
             print(shopping_list)
             pass
         elif choice == '2':
-            item_to_remove = input("Which item would you want to remove from the list? ")
+            item_to_remove = input("Enter the item to remove: ")
             if item_to_remove in shopping_list:
                 shopping_list.remove(item_to_remove)
                 print(f"{item_to_remove} has been removed from the list")
