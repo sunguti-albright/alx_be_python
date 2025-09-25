@@ -10,7 +10,7 @@ The function should execute the arithmetic operation based on the operation para
 For division, include handling for division by zero, returning a specific message or value that your main.py script can recognize and display appropriately.
 Return the result of the arithmetic operation.
 '''
-def perform_operation(num1:float, num2 : float, operation:str):
+def perform_operation(num1, num2, operation):
    match operation:
       case "add":
          return num1 + num2
