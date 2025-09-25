@@ -73,4 +73,5 @@ random_numbers = [random.randint(1,10) for _ in range(15)]
 print(f"original list with possible duplicates : {random_numbers}")
 
 unique_numbers = set(random_numbers)
-print(f"set with unique numbers only: {unique_numbers}")
+print(f"set with unique numbers only: {unique_numbers}")   
+
