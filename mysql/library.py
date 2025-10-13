@@ -21,3 +21,9 @@ Implement functionality to delete a book from the library by its ID. Use a DELET
 Remember: Make sure to commit any changes to the database using mydb.commit(). Close the connection to the database using mycursor.close() and mydb.close() when you’re finished.
 """
 import mysql.connector
+connection = mysql.connector.connect(
+    host = "localhost",
+    user = "root",
+    password = "Travisasutsa01."
+)
+
