@@ -20,9 +20,15 @@ def square_of_number(x):
 
 class TestSquare(unittest.TestCase):
     def test_square(self):
-        result = square_of_number(6)
-        self.assertEqual(result,36)
+      self.assertEqual(square_of_number(6),36)
+      self.assertEqual(square_of_number(-8),64)
+      self.assertEqual(square_of_number(2),4)
         
-        
+    def test_invalid_input_type(self):
+     with self.assertRaises(TypeError):
+         square_of_number("b")
+         
 if __name__ == "__main__":
     unittest.main()
+    
+    
